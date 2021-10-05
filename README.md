@@ -1,7 +1,7 @@
 # pixiv_crawler
 
 
-这是基于`selenium 3.141.0`,使用`Python@3.8(+)``AutoIT3`编写的pixiv爬虫 
+这是基于`selenium 3.141.0`,使用`Python@3.8(+)` `AutoIT3`编写的pixiv爬虫 
 
 系统要求:Windows 7 (64位) 及以上 
 
