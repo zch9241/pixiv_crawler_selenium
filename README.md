@@ -1,9 +1,9 @@
 # pixiv_crawler
 
 
-这是基于`selenium 3.141.0`,使用`Python@3.8(+)` `AutoIT3`编写的pixiv爬虫 
+这是基于`selenium 3.141.0`,使用`Python@3.8(+)` `AutoIT v3`编写的pixiv爬虫 
 
-系统要求:Windows 7 (64位) 及以上 
+系统要求:Windows 7 (64位) 及以上
 
 - 推荐使用最新版本的软件，以避免发生无法预期的错误 
 - 本程序(pixiv_crawler)仅供学习交流，最初目的达成后请自行删除 
@@ -41,6 +41,8 @@ heads/4577@{#1135})
 ```
 https://chromedriver.storage.googleapis.com/index.html
 ```
+
+3.请在Chrome上先登录pixiv，以便程序调用个人数据。
 
 ### 注意
 1.本程序调用的`AutoIT3`(.au3)编译的(.exe)程序运行时可能会被360报毒。详见`info.md`
