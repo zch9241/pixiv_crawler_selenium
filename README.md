@@ -46,7 +46,7 @@ https://chromedriver.storage.googleapis.com/index.html
 3.请在Chrome上先登录pixiv，以便程序调用个人数据。
 
 ### 注意
-1.本程序调用的`AutoIT3`(.au3)编译的(.exe)程序运行时可能会被360报毒。
+1.本程序调用的`AutoIt3`(.au3)编译的(.exe)程序运行时可能会被360报毒。
 
 你可以：
 - 相信我
