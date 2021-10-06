@@ -38,7 +38,7 @@ heads/4577@{#1135})
 ```
 
 (2)更新`chromedriver`
-- `chromedriver`下载地址：
+- `chromedriver`下载地址：（有点简陋）
 ```
 https://chromedriver.storage.googleapis.com/index.html
 ```
@@ -46,13 +46,15 @@ https://chromedriver.storage.googleapis.com/index.html
 3.请在Chrome上先登录pixiv，以便程序调用个人数据。
 
 ### 注意
-1.本程序调用的`AutoIT3`(.au3)编译的(.exe)程序运行时可能会被360报毒。详见`info.md`
+1.本程序调用的`AutoIT3`(.au3)编译的(.exe)程序运行时可能会被360报毒。
 
 你可以：
 - 相信我
 - 使用反编译查看源代码或者查看未编译的`au3`文件
-- 使用知名的多引擎查杀工具（比如微步云）
+- 使用知名的多引擎查杀工具（比如微步云），微步的检测快照位于根文件夹下（只有360报毒）
 
-2.本程序调用了`pyautogui`，故请在程序执行过程中不要轻易移动鼠标，操作键盘，以免带来未知的错误。
+2.本程序基于的`chromedriver.exe`，运行一段时间后可能会被360检测创建`BITS任务`，请点击信任
 
-3.本程序运行时，请不要打开其他Chrome窗口。
+3.本程序调用了`pyautogui`，故请在程序执行过程中不要轻易移动鼠标，操作键盘，以免带来未知的错误。
+
+4.本程序运行时，请不要打开其他Chrome窗口。
