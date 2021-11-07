@@ -1,5 +1,5 @@
 # pixiv_crawler
-
+[![Release](https://github.com/zch9241/pixiv_crawler)]
 
 这是基于`selenium 3.141.0`,使用`Python@3.8(+)` `AutoIt v3`编写的pixiv爬虫 
 
